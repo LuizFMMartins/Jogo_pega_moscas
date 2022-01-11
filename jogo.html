@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Mosquito</title>
+<link rel="stylesheet" href="css/estilos.css"> 
+ 
+</head>
+
+<body onresize="tamanhoTela()">
+
+    <div class="painel">
+        <div class="pontosDeVida">
+            <img id="v1" src="imagens/imagens/coracao_cheio.png" alt="">
+            <img id="v2" src="imagens/imagens/coracao_cheio.png" alt="">
+            <img id="v3" src="imagens/imagens/coracao_cheio.png" alt="">
+        </div>
+        <div class="cronometro">Tempo restante: <span id="cronometro"></span></div>
+    </div>
+
+    <script src="js/jogo.js">
+        setInterval( function posicaoRandomica(){
+    
+    //remover mosca "se existir"
+    
+    if(document.getElementById("mosca")){
+       document.getElementById("mosca").remove() 
+    
+}
+} )
+    </script>  
+</body>
+</html>
