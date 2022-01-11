@@ -1,0 +1,53 @@
+html{
+    cursor: url(../imagens/imagens/mata_mosca.png) 30 30, auto;
+}
+
+body{
+    background-image: url(../imagens/imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+
+.painel{
+    position: absolute;
+    width: 170px;
+    padding: 10px;
+    bottom: 0px;
+    margin: 10px;
+    border-top: 1px solid #fff ;
+    background-color: #fff;
+    opacity: 0.7;
+    
+}
+
+.pontosDeVida{
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------mosca----------*/
+.mosca1{
+    height: 50px;
+    width: 50px;
+}
+.mosca2{
+    height: 70px;
+    width: 70px;
+}
+.mosca3{
+    height: 90px;
+    width: 90px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+.ladoB{
+    transform: scaleX(-1);
+}
+
+/*-----fim de jogo----*/
